@@ -45,17 +45,11 @@ FinCheck, kullanıcıların aylık giderlerini düzenli olarak kaydedebilmesi, s
 
 ---
 
-## 🚫 Uygulama Kapsamı Dışında Kalan Özellikler
-- Yedekleme ve senkronizasyon özelliği bulunmaz.  
-- Mobil arayüz desteği yoktur.
-
----
-
 ## 🧩 Kullanılan Teknolojiler
 - **Backend:** Java 21 + Spring Boot  
-- **Database:** ClickHouse  
+- **Database (Ana Veriler):** PostgreSQL  
+- **Raporlama ve Analiz:** ClickHouse  
 - **Frontend:** React + Shadcn UI  
-- **Raporlama:** ClickHouse sorgularına dayalı görselleştirme (istatistiksel raporlar ve analizler)  
 - **Auth:** JWT tabanlı kimlik doğrulama
 
 ---
